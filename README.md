@@ -1,24 +1,11 @@
 # README
+# weather-forecaster
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+• Install ruby on rails dependencies and gems.
 
-Things you may want to cover:
+• `bundle install` to install gems and bundler.
 
-* Ruby version
+• `rails s` for server start.
 
-* System dependencies
+• URL to search forecast : http://localhost:3000/weather/forecast?address=your_desired_address
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
