@@ -1,0 +1,12 @@
+<h1>Weather Forecast</h1>
+
+<% if @forecast[:error] %>
+  <p><%= @forecast[:error] %></p>
+<% else %>
+  <p>
+    <%= "Temperature in #{@forecast[:city]}, #{@forecast[:country]}: #{@forecast[:temperature]}°C" %>
+    <% if @from_cache %>
+      <span style="color: blue;">(Data pulled from cache)</span>
+    <% end %>
+  </p>
+<% end %>
